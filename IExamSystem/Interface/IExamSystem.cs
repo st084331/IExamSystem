@@ -1,4 +1,4 @@
-﻿namespace IExamSystem;
+﻿namespace IExamSystem.Interface;
 
 public interface IExamSystem
 {
