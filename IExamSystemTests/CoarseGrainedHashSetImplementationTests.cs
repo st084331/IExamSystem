@@ -1,5 +1,4 @@
-using System.Reflection;
-using IExamSystem.Implementation;
+using IExamSystemCore.Implementation;
 
 namespace iExamSystemTests
 {

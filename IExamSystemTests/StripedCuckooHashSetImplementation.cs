@@ -1,4 +1,4 @@
-﻿using IExamSystem.Implementation;
+﻿using IExamSystemCore.Implementation;
 
 namespace HashSetImplementationTests
 {
