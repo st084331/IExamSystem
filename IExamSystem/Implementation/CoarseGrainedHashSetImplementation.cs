@@ -2,16 +2,16 @@
 
 using IExamSystem.Collections;
 
-public class CoarseGrainedExamSystem : Interface.IExamSystem
+public class CoarseGrainedHashSetImplementation : Interface.IExamSystem
 {
     private readonly CoarseGrainedHashSet<Tuple<long, long>> _store;
 
-    public CoarseGrainedExamSystem()
+    public CoarseGrainedHashSetImplementation()
     {
         _store = new CoarseGrainedHashSet<Tuple<long, long>>(20);
     }
 
-    public CoarseGrainedExamSystem(int capacity)
+    public CoarseGrainedHashSetImplementation(int capacity)
     {
         _store = new CoarseGrainedHashSet<Tuple<long, long>>(capacity);
     }
