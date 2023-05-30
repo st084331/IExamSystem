@@ -2,11 +2,11 @@ using IExamSystemCore.Implementation;
 using IExamSystemCore.Interface;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ExamSystem.Controllers;
+namespace IExamSystem.Controllers;
 
 [ApiController]
 [Route("[controller]/[action]")]
-public class ExamSystemController : ControllerBase
+public class IExamSystemController : ControllerBase
 {
     private static readonly IExamSystemCore.Interface.IExamSystem iExamSystem = new CoarseGrainedHashSetImplementation();
 
